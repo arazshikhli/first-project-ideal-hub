@@ -1,0 +1,105 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.item-1{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    color: black;
+}
+.item-2{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 127, 221);
+    color: black;
+}
+.item-3{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(234, 255, 127);
+    color: black;
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    z-index: 1;
+}
+.video_media{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.intro-title{
+    width: 600px;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    
+    src: url('/fonts/');
+   
+}
+.play-btn{
+   text-align: center;
+    justify-content: center;
+}
+.play{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   border: none;
+   background: url('/img/btn-play-ico.png');
+   
+}
+.play:hover{
+    cursor: pointer;
+    box-shadow: -2px -2px 2px 2px #323969,  3px 3px 2px 2px #323969;
+    
+ 
+}
+
+.try-now-container{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.try-now{
+    width: 200px;
+    height: 50px;
+    background-color:  #FF6D6D;
+    border:  #FF6D6D;
+    font-size: 20px;
+    color: white;
+    text-transform:uppercase;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 5px;
+  
+    
+}
+.try-now:hover{
+cursor: pointer;
+transition: all 0.5s;
+box-shadow: -3px -3px 2px 2px #FF6D6D,  3px 3px 2px 2px #FF6D6D;;
+
+}
