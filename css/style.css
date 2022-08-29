@@ -82,9 +82,9 @@
 }
 .play:hover{
     cursor: pointer;
-    box-shadow: -2px -2px 2px 2px #323969,  3px 3px 2px 2px #323969;
+    filter: drop-shadow(0px 0px 8px #323969);
     
- 
+   
 }
 
 .try-now-container{
@@ -108,7 +108,7 @@
 .try-now:hover{
 cursor: pointer;
 transition: all 0.5s;
-box-shadow: -3px -3px 2px 2px #FF6D6D,  3px 3px 2px 2px #FF6D6D;;
+filter: drop-shadow(0px 0px 8px #ff6d6d);
 
 }
 .close-cont{
@@ -128,17 +128,9 @@ box-shadow: -3px -3px 2px 2px #FF6D6D,  3px 3px 2px 2px #FF6D6D;;
     border-radius: 50%;
     border: none;
 }
-.close-cont::before{
-    content: '';
-    background-color: #323969;
-    width:110%;
-    height: 110%;
-    transform: scaleX(0);
-    transition: all 0.2s;
-}
-.close-cont:hover::before{
-    transform: scaleX(1);
-}
 .close-btn:hover{
     cursor: pointer;
+    filter: drop-shadow(0px 0px 8px #323969);
+    
+   
 }
