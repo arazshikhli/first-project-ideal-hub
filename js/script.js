@@ -4,6 +4,7 @@ document.querySelector('.play').onclick=function(){
     document.querySelector('.play').style.display="none";
     document.querySelector('.intro-title').style.display="none";
     document.querySelector('.try-now').style.display="none";
+    document.querySelector('.close-btn').style.display="inline-block";
 }
 document.querySelector('.close-btn').onclick=function(){
     console.log('stop');
@@ -12,4 +13,5 @@ document.querySelector('.close-btn').onclick=function(){
     document.querySelector('.play').style.display="inline";
     document.querySelector('.intro-title').style.display="inline-block";
     document.querySelector('.try-now').style.display="inline-block";
+    document.querySelector('.close-btn').style.display="none";
 }
